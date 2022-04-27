@@ -1,0 +1,76 @@
+// @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200;300;400&display=swap");
+
+@import "./header";
+@import "./slider";
+@import "./featuredProducts";
+@import "./categorizedProducts";
+@import "./newArrival";
+@import "./categories";
+@import "./footer";
+@import "./productCategoryMenu";
+@import "./productCategoryItem";
+@import "./productImage";
+@import "./productAction";
+@import "./productDetails";
+@import "./loginform";
+@import "./registerform";
+// @import "./loginForm";
+// @import "./registerForm";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+#root {
+  background: rgb(228, 228, 228);
+}
+
+// .container {
+//   width: 95%;
+//   margin: 0 auto;
+// }
+
+.slider-category {
+  width: 95%;
+  margin: 1rem auto;
+  // padding: 0.2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-category-page-items {
+  display: flex;
+}
+
+.product-top {
+  width: 95%;
+  margin: 1rem auto;
+  display: flex;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-mid {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  margin: 1rem auto;
+  display: flex;
+  background-color: #fff;
+  border-radius: 0.2rem;
+}
+
+.product-bottom {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}

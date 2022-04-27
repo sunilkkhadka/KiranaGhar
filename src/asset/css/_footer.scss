@@ -1,0 +1,49 @@
+.home-footer {
+  background-color: #fff;
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+
+    .weaccept {
+      padding: 1rem 0;
+    }
+
+    .footer-main-container {
+      margin: 1rem 0;
+      padding: 1rem 0;
+      .row {
+        display: flex;
+        justify-content: space-evenly;
+
+        .contact-us {
+          .footer-box {
+            p {
+              padding: 0.2rem 0;
+            }
+          }
+        }
+
+        .quicklinks {
+          .footer-box {
+            ul {
+              li {
+                padding: 0.2rem 0;
+              }
+            }
+          }
+        }
+
+        .support {
+          .footer-box {
+            ul {
+              li {
+                padding: 0.2rem 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

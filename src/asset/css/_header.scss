@@ -1,0 +1,89 @@
+.header {
+  width: 100%;
+  background-color: rgb(252, 178, 41);
+  // border-bottom: 1px solid rgb(232, 232, 232);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .haeder-cart {
+      color: #fff;
+      .icon {
+        margin: 0 0.2rem;
+      }
+    }
+
+    .header-logo {
+      flex: 1;
+    }
+
+    .logo-icon {
+      display: flex;
+    }
+
+    a {
+      font-size: 1rem;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .kirana-icon {
+      padding: 0 1rem;
+      font-size: 1.5rem;
+    }
+
+    .header-search-bar {
+      position: relative;
+      flex: 2;
+
+      input[type="text"] {
+        padding: 0.8rem 1rem;
+        width: 30rem;
+        border: 0;
+        background-color: rgb(247, 241, 241);
+        outline-color: rgb(98, 187, 255);
+      }
+
+      .header-search-output {
+        z-index: 100;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        color: black;
+        padding: 1rem 0;
+
+        .search-output {
+          padding: 0.5rem;
+          border-bottom: 1px solid rgb(194, 194, 194);
+
+          a {
+            width: 100%;
+            padding: 1rem;
+            color: black;
+          }
+        }
+      }
+    }
+
+    .header-user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        padding: 0 1rem;
+      }
+
+      h2 {
+        padding: 0 1rem;
+      }
+    }
+  }
+}
